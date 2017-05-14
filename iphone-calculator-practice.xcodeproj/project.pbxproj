@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCDDA2F01EC8AF6200ADDE66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDDA2EF1EC8AF6200ADDE66 /* AppDelegate.swift */; };
+		FCDDA2F21EC8AF6200ADDE66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDDA2F11EC8AF6200ADDE66 /* ViewController.swift */; };
+		FCDDA2F51EC8AF6200ADDE66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCDDA2F31EC8AF6200ADDE66 /* Main.storyboard */; };
+		FCDDA2F71EC8AF6200ADDE66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCDDA2F61EC8AF6200ADDE66 /* Assets.xcassets */; };
+		FCDDA2FA1EC8AF6200ADDE66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCDDA2F81EC8AF6200ADDE66 /* LaunchScreen.storyboard */; };
+		FCDDA3051EC8AF6200ADDE66 /* iphone_calculator_practiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDDA3041EC8AF6200ADDE66 /* iphone_calculator_practiceTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCDDA3011EC8AF6200ADDE66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCDDA2E41EC8AF6200ADDE66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCDDA2EB1EC8AF6200ADDE66;
+			remoteInfo = "iphone-calculator-practice";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FCDDA2EC1EC8AF6200ADDE66 /* iphone-calculator-practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iphone-calculator-practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCDDA2EF1EC8AF6200ADDE66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCDDA2F11EC8AF6200ADDE66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FCDDA2F41EC8AF6200ADDE66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCDDA2F61EC8AF6200ADDE66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCDDA2F91EC8AF6200ADDE66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCDDA2FB1EC8AF6200ADDE66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCDDA3001EC8AF6200ADDE66 /* iphone-calculator-practiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iphone-calculator-practiceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCDDA3041EC8AF6200ADDE66 /* iphone_calculator_practiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iphone_calculator_practiceTests.swift; sourceTree = "<group>"; };
+		FCDDA3061EC8AF6200ADDE66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCDDA2E91EC8AF6200ADDE66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCDDA2FD1EC8AF6200ADDE66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCDDA2E31EC8AF6200ADDE66 = {
+			isa = PBXGroup;
+			children = (
+				FCDDA2EE1EC8AF6200ADDE66 /* iphone-calculator-practice */,
+				FCDDA3031EC8AF6200ADDE66 /* iphone-calculator-practiceTests */,
+				FCDDA2ED1EC8AF6200ADDE66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCDDA2ED1EC8AF6200ADDE66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCDDA2EC1EC8AF6200ADDE66 /* iphone-calculator-practice.app */,
+				FCDDA3001EC8AF6200ADDE66 /* iphone-calculator-practiceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCDDA2EE1EC8AF6200ADDE66 /* iphone-calculator-practice */ = {
+			isa = PBXGroup;
+			children = (
+				FCDDA2EF1EC8AF6200ADDE66 /* AppDelegate.swift */,
+				FCDDA2F11EC8AF6200ADDE66 /* ViewController.swift */,
+				FCDDA2F31EC8AF6200ADDE66 /* Main.storyboard */,
+				FCDDA2F61EC8AF6200ADDE66 /* Assets.xcassets */,
+				FCDDA2F81EC8AF6200ADDE66 /* LaunchScreen.storyboard */,
+				FCDDA2FB1EC8AF6200ADDE66 /* Info.plist */,
+			);
+			path = "iphone-calculator-practice";
+			sourceTree = "<group>";
+		};
+		FCDDA3031EC8AF6200ADDE66 /* iphone-calculator-practiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCDDA3041EC8AF6200ADDE66 /* iphone_calculator_practiceTests.swift */,
+				FCDDA3061EC8AF6200ADDE66 /* Info.plist */,
+			);
+			path = "iphone-calculator-practiceTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCDDA2EB1EC8AF6200ADDE66 /* iphone-calculator-practice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCDDA3091EC8AF6200ADDE66 /* Build configuration list for PBXNativeTarget "iphone-calculator-practice" */;
+			buildPhases = (
+				FCDDA2E81EC8AF6200ADDE66 /* Sources */,
+				FCDDA2E91EC8AF6200ADDE66 /* Frameworks */,
+				FCDDA2EA1EC8AF6200ADDE66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iphone-calculator-practice";
+			productName = "iphone-calculator-practice";
+			productReference = FCDDA2EC1EC8AF6200ADDE66 /* iphone-calculator-practice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCDDA2FF1EC8AF6200ADDE66 /* iphone-calculator-practiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCDDA30C1EC8AF6200ADDE66 /* Build configuration list for PBXNativeTarget "iphone-calculator-practiceTests" */;
+			buildPhases = (
+				FCDDA2FC1EC8AF6200ADDE66 /* Sources */,
+				FCDDA2FD1EC8AF6200ADDE66 /* Frameworks */,
+				FCDDA2FE1EC8AF6200ADDE66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCDDA3021EC8AF6200ADDE66 /* PBXTargetDependency */,
+			);
+			name = "iphone-calculator-practiceTests";
+			productName = "iphone-calculator-practiceTests";
+			productReference = FCDDA3001EC8AF6200ADDE66 /* iphone-calculator-practiceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCDDA2E41EC8AF6200ADDE66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ZASman;
+				TargetAttributes = {
+					FCDDA2EB1EC8AF6200ADDE66 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					FCDDA2FF1EC8AF6200ADDE66 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FCDDA2EB1EC8AF6200ADDE66;
+					};
+				};
+			};
+			buildConfigurationList = FCDDA2E71EC8AF6200ADDE66 /* Build configuration list for PBXProject "iphone-calculator-practice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCDDA2E31EC8AF6200ADDE66;
+			productRefGroup = FCDDA2ED1EC8AF6200ADDE66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCDDA2EB1EC8AF6200ADDE66 /* iphone-calculator-practice */,
+				FCDDA2FF1EC8AF6200ADDE66 /* iphone-calculator-practiceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCDDA2EA1EC8AF6200ADDE66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCDDA2FA1EC8AF6200ADDE66 /* LaunchScreen.storyboard in Resources */,
+				FCDDA2F71EC8AF6200ADDE66 /* Assets.xcassets in Resources */,
+				FCDDA2F51EC8AF6200ADDE66 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCDDA2FE1EC8AF6200ADDE66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCDDA2E81EC8AF6200ADDE66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCDDA2F21EC8AF6200ADDE66 /* ViewController.swift in Sources */,
+				FCDDA2F01EC8AF6200ADDE66 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCDDA2FC1EC8AF6200ADDE66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCDDA3051EC8AF6200ADDE66 /* iphone_calculator_practiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCDDA3021EC8AF6200ADDE66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCDDA2EB1EC8AF6200ADDE66 /* iphone-calculator-practice */;
+			targetProxy = FCDDA3011EC8AF6200ADDE66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCDDA2F31EC8AF6200ADDE66 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCDDA2F41EC8AF6200ADDE66 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCDDA2F81EC8AF6200ADDE66 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCDDA2F91EC8AF6200ADDE66 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCDDA3071EC8AF6200ADDE66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCDDA3081EC8AF6200ADDE66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCDDA30A1EC8AF6200ADDE66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iphone-calculator-practice/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iphone-calculator-practice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FCDDA30B1EC8AF6200ADDE66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iphone-calculator-practice/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iphone-calculator-practice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FCDDA30D1EC8AF6200ADDE66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "iphone-calculator-practiceTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iphone-calculator-practiceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iphone-calculator-practice.app/iphone-calculator-practice";
+			};
+			name = Debug;
+		};
+		FCDDA30E1EC8AF6200ADDE66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "iphone-calculator-practiceTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iphone-calculator-practiceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iphone-calculator-practice.app/iphone-calculator-practice";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCDDA2E71EC8AF6200ADDE66 /* Build configuration list for PBXProject "iphone-calculator-practice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCDDA3071EC8AF6200ADDE66 /* Debug */,
+				FCDDA3081EC8AF6200ADDE66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCDDA3091EC8AF6200ADDE66 /* Build configuration list for PBXNativeTarget "iphone-calculator-practice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCDDA30A1EC8AF6200ADDE66 /* Debug */,
+				FCDDA30B1EC8AF6200ADDE66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FCDDA30C1EC8AF6200ADDE66 /* Build configuration list for PBXNativeTarget "iphone-calculator-practiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCDDA30D1EC8AF6200ADDE66 /* Debug */,
+				FCDDA30E1EC8AF6200ADDE66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCDDA2E41EC8AF6200ADDE66 /* Project object */;
+}
