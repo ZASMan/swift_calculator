@@ -234,6 +234,7 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
+                        <outlet property="label" destination="use-au-XEi" id="5eY-Np-jI6"/>
                         <outlet property="numbers" destination="o14-cI-EJ6" id="N6u-wA-Y2U"/>
                     </connections>
                 </viewController>
