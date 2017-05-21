@@ -9,8 +9,10 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    @IBOutlet weak var numbers: UIButton!
+    
+    @IBAction func numbers(_ sender: UIButton) {
+    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
