@@ -20,6 +20,10 @@ class ViewController: UIViewController {
         numberOnScreen = Double(label.text!)!
     }
     
+    @IBAction func operator_buttons(_ sender: UIButton) {
+    }
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
