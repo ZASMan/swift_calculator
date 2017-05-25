@@ -18,8 +18,18 @@ class ViewController: UIViewController {
     
     @IBAction func numbers(_ sender: UIButton)
     {
+        if performingMath == true
+        {
+            // Set equal to button user just clicked
+            label.text = String(sender.tag-1)
+            // In process of typing in a new number
+            performingMath = true;
+        }
+        else
+        {
         label.text = label.text! + String(sender.tag-1)
         numberOnScreen = Double(label.text!)!
+        }
     }
     
 
@@ -27,6 +37,8 @@ class ViewController: UIViewController {
     {
         if label.text! != "" && sender.tag != 11 && sender.tag != 16
         {
+            //Store previous label
+            previousNumber = Double(label.text!)!
             if sender.tag == 12 //divide
             {
             
