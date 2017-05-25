@@ -11,6 +11,8 @@ import UIKit
 class ViewController: UIViewController {
     
     var numberOnScreen:Double = 0;
+    var previousNumber:Double = 0;
+    var performingMath = false;
     
     @IBOutlet weak var label: UILabel!
     
@@ -41,6 +43,8 @@ class ViewController: UIViewController {
             {
                 
             }
+            
+            var performingMath = true;
         }
     }
     
