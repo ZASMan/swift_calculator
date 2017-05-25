@@ -22,8 +22,9 @@ class ViewController: UIViewController {
         {
             // Set equal to button user just clicked
             label.text = String(sender.tag-1)
+            numberOnScreen = Double(label.text!)!
             // In process of typing in a new number
-            performingMath = true;
+            performingMath = false
         }
         else
         {
