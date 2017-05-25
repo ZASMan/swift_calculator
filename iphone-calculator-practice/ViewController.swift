@@ -20,7 +20,28 @@ class ViewController: UIViewController {
         numberOnScreen = Double(label.text!)!
     }
     
-    @IBAction func operator_buttons(_ sender: UIButton) {
+
+    @IBAction func operator_buttons(_ sender: UIButton)
+    {
+        if label.text! != "" && sender.tag != 11 && sender.tag != 16
+        {
+            if sender.tag == 12 //divide
+            {
+            
+            }
+            else if sender.tag == 13 // multiply
+            {
+                
+            }
+            else if sender.tag == 14 // subtract
+            {
+                
+            }
+            else if sender.tag == 15 // add
+            {
+                
+            }
+        }
     }
     
     
