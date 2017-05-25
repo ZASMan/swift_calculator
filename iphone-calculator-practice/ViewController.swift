@@ -37,6 +37,8 @@ class ViewController: UIViewController {
 
     @IBAction func operator_buttons(_ sender: UIButton)
     {
+        // Clicks any of the buttons except blank buttons
+        // clear button or equal button
         if label.text! != "" && sender.tag != 11 && sender.tag != 16
         {
             //Store previous label
@@ -62,24 +64,33 @@ class ViewController: UIViewController {
             currentOperation = sender.tag;
             performingMath = true;
         }
+        // Clicks the equal button
         else if sender.tag == 16
         {
-            if currentOperation == 12
+            if currentOperation == 12 //divide
             {
-                
+                label.text = String(previousNumber / numberOnScreen)
             }
-            else if currentOperation == 13
+            else if currentOperation == 13 //multiply
             {
-                
+                label.text = String(previousNumber * numberOnScreen)
             }
-            else if currentOperation == 14
+            else if currentOperation == 14 // subtract
             {
-                
+                label.text = String(previousNumber - numberOnScreen)
             }
-            else if currentOperation == 15
+            else if currentOperation == 15 // add
             {
-                
+                label.text = String(previousNumber + numberOnScreen)
             }
+        }
+        // Clicks the clear button
+        else if sender.tag == 11
+        {
+            label.text = "";
+            previousNumber = 0;
+            numberOnScreen = 0;
+            currentOperation = 0;
         }
     }
     
