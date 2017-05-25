@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     var numberOnScreen:Double = 0;
     var previousNumber:Double = 0;
     var performingMath = false;
+    var currentOperation = 0;
     
     @IBOutlet weak var label: UILabel!
     
@@ -42,22 +43,43 @@ class ViewController: UIViewController {
             previousNumber = Double(label.text!)!
             if sender.tag == 12 //divide
             {
+                label.text = "/";
             
             }
             else if sender.tag == 13 // multiply
             {
-                
+                label.text = "x";
             }
             else if sender.tag == 14 // subtract
             {
-                
+                label.text = "-";
             }
             else if sender.tag == 15 // add
             {
-                
+                label.text = "+";
             }
             
+            currentOperation = sender.tag;
             performingMath = true;
+        }
+        else if sender.tag == 16
+        {
+            if currentOperation == 12
+            {
+                
+            }
+            else if currentOperation == 13
+            {
+                
+            }
+            else if currentOperation == 14
+            {
+                
+            }
+            else if currentOperation == 15
+            {
+                
+            }
         }
     }
     
