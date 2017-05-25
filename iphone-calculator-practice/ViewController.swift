@@ -56,7 +56,7 @@ class ViewController: UIViewController {
                 
             }
             
-            var performingMath = true;
+            performingMath = true;
         }
     }
     
